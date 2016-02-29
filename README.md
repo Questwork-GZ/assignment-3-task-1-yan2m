@@ -1,5 +1,7 @@
 # Assignment-3-start
-## Task 1
+Allows NetBeans, Eclipse, or jsut .java files
+
+## Task 1 (Due 04-03-2016)
 ### Purpose
 - Study **Inheritance** in Java
 
@@ -44,6 +46,8 @@ for loop {
     System.out.println("Area of " + shapeList[i] + ": " + ...);
 }
 ```
+
+
 
 ## Task 2 (Release Later)
 ### purpose
