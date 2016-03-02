@@ -9,6 +9,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.administrator.myapplication.model.Circle;
+import com.example.administrator.myapplication.model.Rectangle;
+import com.example.administrator.myapplication.model.Shape;
+import com.example.administrator.myapplication.model.Square;
+import com.example.administrator.myapplication.model.Triangle;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,6 +33,19 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        Shape square = new Square();
+        square.calculate();
+        square.display();
+        Shape rectangle = new Rectangle();
+        rectangle.calculate();
+        rectangle.display();
+        Shape circle = new Circle();
+        circle.calculate();
+        circle.display();
+        Shape triangle = new Triangle();
+        triangle.calculate();
+        triangle.display();
     }
 
     @Override
