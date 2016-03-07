@@ -8,9 +8,14 @@ import com.example.administrator.myapplication.calculator.CircleCalculator;
  */
 public class Circle extends Shape {
 
+    private double a;
 //    public Circle() {
 //        areaCalculator = new CircleCalculator();
 //    }
+
+    public Circle(double a) {
+        this.a = a;
+    }
 
     @Override
     public double calculate(double a, double b) {
@@ -19,6 +24,6 @@ public class Circle extends Shape {
 
     @Override
     public void display() {
-        System.out.println("Area of Circle : " + calculate(4,4));
+        System.out.println("Area of Circle : " + calculate(a,a));
     }
 }

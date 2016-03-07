@@ -8,9 +8,17 @@ import com.example.administrator.myapplication.calculator.RectangleCalculator;
  */
 public class Rectangle extends Shape {
 
+    private double a;
+    private double b;
 //    public Rectangle() {
 //        areaCalculator = new RectangleCalculator();
 //    }
+
+
+    public Rectangle(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 
     @Override
     public double calculate(double a, double b) {
@@ -19,6 +27,6 @@ public class Rectangle extends Shape {
 
     @Override
     public void display() {
-        System.out.println("Area of Rectangle : " + calculate(8,4));
+        System.out.println("Area of Rectangle : " + calculate(a,b));
     }
 }

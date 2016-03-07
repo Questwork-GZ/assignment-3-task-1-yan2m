@@ -7,11 +7,16 @@ import com.example.administrator.myapplication.calculator.SquareCalculator;
  * Mail:jyan.lin@foxmail.com
  */
 public class Square extends Shape {
-    private double result;
+    private double a;
 
 //    public Square() {
 //        areaCalculator = new SquareCalculator();
 //    }
+
+
+    public Square(double a) {
+        this.a = a;
+    }
 
     @Override
     public double calculate(double a, double b) {
@@ -20,6 +25,6 @@ public class Square extends Shape {
 
     @Override
     public void display() {
-        System.out.println("Area of square : " + calculate(4,4));
+        System.out.println("Area of square : " + calculate(a,a));
     }
 }
