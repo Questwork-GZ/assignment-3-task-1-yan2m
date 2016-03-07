@@ -7,11 +7,12 @@ import com.example.administrator.myapplication.Interface.AreaCalculator;
  * Mail:jyan.lin@foxmail.com
  */
 public abstract class Shape {
-    AreaCalculator areaCalculator;
+//    AreaCalculator areaCalculator;
 
-    public void calculate() {
-        areaCalculator.calculator();
-    }
+//    public void calculate() {
+//        areaCalculator.calculator();
+//    }
 
+    public abstract double calculate(double a, double b);
     public abstract void display();
 }

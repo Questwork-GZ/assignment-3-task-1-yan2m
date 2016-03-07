@@ -35,16 +35,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Shape square = new Square();
-        square.calculate();
         square.display();
         Shape rectangle = new Rectangle();
-        rectangle.calculate();
         rectangle.display();
         Shape circle = new Circle();
-        circle.calculate();
         circle.display();
         Shape triangle = new Triangle();
-        triangle.calculate();
         triangle.display();
     }
 

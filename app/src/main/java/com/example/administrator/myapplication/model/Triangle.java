@@ -8,12 +8,17 @@ import com.example.administrator.myapplication.calculator.TriangleCalculator;
  */
 public class Triangle extends Shape {
 
-    public Triangle() {
-        areaCalculator = new TriangleCalculator();
+//    public Triangle() {
+//        areaCalculator = new TriangleCalculator();
+//    }
+
+    @Override
+    public double calculate(double a, double b) {
+        return 0.5*a*b;
     }
 
     @Override
     public void display() {
-        System.out.println("Area of Triangle : " + areaCalculator.calculator());
+        System.out.println("Area of Triangle : " + calculate(8,4));
     }
 }

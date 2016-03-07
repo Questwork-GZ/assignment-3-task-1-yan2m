@@ -9,12 +9,17 @@ import com.example.administrator.myapplication.calculator.SquareCalculator;
 public class Square extends Shape {
     private double result;
 
-    public Square() {
-        areaCalculator = new SquareCalculator();
+//    public Square() {
+//        areaCalculator = new SquareCalculator();
+//    }
+
+    @Override
+    public double calculate(double a, double b) {
+        return a*a;
     }
 
     @Override
     public void display() {
-        System.out.println("Area of square : " + areaCalculator.calculator());
+        System.out.println("Area of square : " + calculate(4,4));
     }
 }
