@@ -1,4 +1,0 @@
-include ':Cropper'
-include ':Android'
-
-include ':app'
