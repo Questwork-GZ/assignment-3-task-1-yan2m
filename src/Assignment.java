@@ -11,11 +11,11 @@ public class Assignment {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Shape square = new Square(4);
+		Shape square = new Square(4,4);
         square.display();
         Shape rectangle = new Rectangle(8,4);
         rectangle.display();
-        Shape circle = new Circle(4);
+        Shape circle = new Circle(4,0);
         circle.display();
         Shape triangle = new Triangle(8,4);
         triangle.display();
